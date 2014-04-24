@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_start_friendslist_item"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/fragment_start_planetgrid_item_image"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:src="@drawable/earth" 
+        android:contentDescription="Picture of planet"/>
+
+
+     <TextView
+         android:id="@+id/fragment_start_planetgrid_item_name"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="5dp"
+         android:layout_marginRight="5dp"
+         android:layout_below="@id/fragment_start_planetgrid_item_image"
+         android:gravity="center_horizontal"
+         android:text="TextView" />
+
+
+</RelativeLayout>
